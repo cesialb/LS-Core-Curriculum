@@ -1,0 +1,7 @@
+welcome: 'Welcome to the Mortgage/Loan Calculator!'
+loan: 'Enter the amount of your loan:'
+APR: 'Enter your APR:'
+loan_duration: 'Enter your loan duration in months:'
+calculating: 'Calculating...'
+try_again: 'Would you like to perform another calculation?'
+thank_you: 'Thanks for using the Mortgage/Loan Calculator!'
