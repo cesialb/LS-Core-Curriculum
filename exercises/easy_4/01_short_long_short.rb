@@ -49,9 +49,39 @@ Algorithm
 ---------
 - Method accepts two strings of unequal length as arguments
 - Assign variables to the short string and the long string
+  - Figure out length of both strings and assign variables accordingly
+  - Ternary operator should work well here
+  - ** For now: a simple if/else statement should be fine
 - Create a variable concatenating short_string + long_string + short_string
 - Return the created variable
 
 Code
 ----
 =end
+
+def short_long_short(string1, string2)
+  long_string, short_string, big_string = ''
+
+  if string1.length > string2.length
+    long_string = string1
+    short_string = string2
+  else
+    long_string = string2
+    short_string = string1
+  end
+
+  big_string = short_string + long_string + short_string
+end
+
+# better solution
+def short_long_short(string1, string2)
+  if string1.length > string2.length
+    string2 + string1 + string2
+  else
+    string1 + string2 + string1
+  end
+end
+
+p short_long_short('abc', 'defgh') == "abcdefghabc"
+p short_long_short('abcde', 'fgh') == "fghabcdefgh"
+p short_long_short('', 'xyz') == "xyz"
