@@ -72,7 +72,7 @@ def string_to_integer(string)
   value = 0
 
   digits.each {|digit| value = 10 * value + digit}
-  p value
+  value
 end
 
-string_to_integer('1234')
+p string_to_integer('1234')
