@@ -66,7 +66,6 @@ def UUID_maker()
   four_char2 = []
   four_char3 = []
   twelve_char = []
-
   hex_range = ('0'..'9').to_a + ('a'..'f').to_a
   
   8.times do 
