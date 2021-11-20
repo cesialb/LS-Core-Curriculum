@@ -60,7 +60,6 @@ Code
 
 def ascii_value(string)
   sum = 0
-  return sum if string.empty?
 
   string.each_char do |char|
     sum += char.ord
