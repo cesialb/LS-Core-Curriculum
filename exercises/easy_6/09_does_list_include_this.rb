@@ -56,6 +56,8 @@ Code
 ----
 =end
 
+require 'pry'
+
 def include?(arr, search_value)
   arr.each { |ele| return true if ele == search_value}
   false
@@ -79,6 +81,7 @@ end
   end
 
 p include?([1,2,3,4,5], 3) == true
+binding.pry
 p include?([1,2,3,4,5], 6) == false
 p include?([], 3) == false
 p include?([nil], nil) == true
