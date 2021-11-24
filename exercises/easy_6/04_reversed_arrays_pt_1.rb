@@ -55,6 +55,7 @@ Code
 =end
 
 # couldn't think of an algorithm - checked solution:
+  # forgetting about the multiple variable assignment feature in Ruby!
 
 def reverse!(array)
   left_index = 0
