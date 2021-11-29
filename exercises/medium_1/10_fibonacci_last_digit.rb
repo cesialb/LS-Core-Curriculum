@@ -62,9 +62,9 @@ def fibonacci(nth)
   last
 end
 
-# def fibonacci_last(nth)
-#   fibonacci(nth).to_s[-1].to_i
-# end
+def fibonacci_last(nth)
+  fibonacci(nth).to_s[-1].to_i
+end
 
 # reformatted solution
   # you only need the last digit of numbers in fibonacci sequence to solve this
