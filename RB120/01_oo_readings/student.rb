@@ -1,0 +1,20 @@
+class Student
+  def initialize(name, grade)
+    @name = name
+    @grade = grade
+  end
+
+  def better_grade_than?(other_student)
+    grade > other_student.grade
+  end
+
+  protected
+
+  def grade
+    @grade
+  end
+end
+
+lucy = Student.new('Lucy', 84)
+greg = Student.new('Greg', 90)
+puts "Well done!" if greg.better_grade_than?(lucy)

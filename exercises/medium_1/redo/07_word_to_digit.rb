@@ -3,8 +3,9 @@ PEDAC Template
 ==============
 (Understand the) Problem
 ------------------------
--  Inputs:
--  Output:
+-  Inputs: string
+-  Output: same string, with numbers converted to the actual digit
+
 ---
 **Problem Domain:**
 ---
@@ -39,6 +40,7 @@ _Your Edge Cases:_
 ---
 Data Structure
 --------------
+- Input value is 
 ---
 Algorithm
 ---------
