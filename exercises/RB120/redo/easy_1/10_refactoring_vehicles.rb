@@ -6,23 +6,19 @@ class Vehicle
 end
 
 class Car < Vehicle
-  attr_reader :make, :model
-
   def wheels
     4
   end
 end
 
 class Motorcycle < Vehicle
-  attr_reader :make, :model
-
   def wheels
     2
   end
 end
 
 class Truck < Vehicle
-  attr_reader :make, :model, :payload
+  attr_reader :payload
 
   def initialize(make, model, payload)
     super(make, model)
