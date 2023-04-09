@@ -1,11 +1,6 @@
-integer=15
+integer=8
 
-if [[ $integer -lt 10 ]]
+if [[ ! ($integer -lt 5 || $integer -gt 10) ]]
 then
-	echo $integer is less than 10
-elif [[ $integer -gt 20 ]]
-then
-	echo $integer is greater than 20
-else
-	echo $integer is between 10 and 20
+  echo $integer is between 5 and 10.
 fi

@@ -1,4 +1,4 @@
-greeting () {
+greeting() {
 	echo Hello $1
 }
 
