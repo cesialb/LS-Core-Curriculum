@@ -1,0 +1,5 @@
+Magical thinking
+
+On the other hand, people who believe AIs and specifically LLMs possess "intelligence" are often accused of "magical thinking." Unlike magic itself, magical thinking is always used derisively. Since we now know what magic means, we know what magical thinking means: a tendency to interpret something as magic instead of trying to understand it. A tendency to care about outcomes rather than mechanisms. The underlying assumption, when someone says you're a victim of magical thinking, is that if you understood the mechanisms, you could make better predictions.
+
+When it comes to AI, I doubt it.

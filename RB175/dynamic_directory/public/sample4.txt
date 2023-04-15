@@ -1,0 +1,5 @@
+The mechanisms used in AI systems are pretty simple. But at a large scale, combined cleverly, they create amazingly complex emergent outcomes far beyond what we put in.
+
+Emergent outcomes defy expectations. Understanding how transistors work doesn't help you at all to explain why Siri sucks. Understanding semi-permeable cell membranes doesn't help much in figuring out what's the deal with frogs. Mechanisms are not the right level of abstraction at all. You can't get there from here.
+
+Magical thinking, it turns out, is absolutely essential to understanding any emergent system. You have to believe in magic to understand anything truly complex.
