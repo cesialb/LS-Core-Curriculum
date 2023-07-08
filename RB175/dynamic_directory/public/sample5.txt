@@ -1,5 +1,0 @@
-Systems design 2: What we hope we know
-
-Someone asked if I could write about the rise of AI and Large Language Models (LLMs) and what I think that means for the future of people, technology, society, and so on. Although that's a fun topic, it left me with two problems: I know approximately nothing about AI, and predicting the future is hard even for people who know what they're talking about.
-
-Let's try something else instead. I'll tell you a bunch of things I do know that are somehow related to the topic, and then you can predict the future yourself.
